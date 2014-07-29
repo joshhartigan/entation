@@ -3,6 +3,8 @@ Entation
 
 Life-savingly simple HTML presentations.
 
+Entation comes in two flavours: Read below for instructions for entation.js, and click [here](#entation-light) for entation.light.js, which doesn't require jQuery.
+
 ## Getting Started
 Entation is *really* easy to use. You don't even need any CSS or JavaScript knowledge, just basic HTML.
 
@@ -44,3 +46,14 @@ can be edited to contain any JavaScript keycodes, and - as always - entation wil
 ## Example
 
 If you'd like to see the example that is in this repository, clone this repository, and view 'example.html' in your browser. There will probably be issues with Internet Explorer, but I haven't tested.
+
+--------------
+
+## Entation Light
+If for some reason you do not want to use jQuery in your project, there is a 'light' version of entation which can work without it - with some drawbacks.
+
+### Disadvantages
+1. No fade in/out effect.
+1. Every other thing on your webpage will have to be manually positioned - the entation will be `position: absolute; top: 5px;`.
+1. **Important:** All the slides in an entation.light presentation must be inside an element with the class 'entation'.
+1. A minor disadvantage - the entation.light.js file is bigger than entation.js (quite ironically), and will marginally increase loading time.

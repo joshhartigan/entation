@@ -5,11 +5,6 @@ $(function() {
 
   var currentSlide = 1;
 
-  // Move all slides to the top to prevent
-  // buggy-looking animations.
-  // $(".slide").css("position", "absolute");
-  // $(".slide").css("clear", "top");
-
   for (var slide = 2; slide <= SLIDE_COUNT; slide++) {
     $(".slide." + slide).hide();
   }
