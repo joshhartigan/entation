@@ -19,11 +19,11 @@ To create a slide, use the class 'slide' followed by the slide's number - you mu
 
 ```html
 <div class="slide 1">
-	<p>Hello, world!</p>
+  <p>Hello, world!</p>
 </div>
 
 <div class="slide 2">
-	<p>Hello again, people!</p>
+  <p>Hello again, people!</p>
 </div>
 ```
 
