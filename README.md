@@ -43,7 +43,7 @@ var PREVIOUS_KEYCODES = [112];
 
 can be edited to contain any JavaScript keycodes, and - as always - entation will do the rest by implementing them as previous-slide-buttons. Keycodes for JavaScript can be found at [this helpful page](http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes).
 
-## [Example](http://joshhartigan.github.io)
+## [Example](http://joshhartigan.github.io/entation)
 
 --------------
 
